@@ -1,0 +1,41 @@
+<!-- Page Title -->
+		<div class="section section-breadcrumbs">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+        <div class="section">
+	    	<div class="container">
+				<div class="row">
+					<!-- Blog Post -->
+					<div class="col-sm-8">
+						<div class="blog-post blog-single-post">
+							<div class="single-post-title">
+								<h3>Post Title</h3>
+							</div>
+							<div class="single-post-info">
+								<i class="glyphicon glyphicon-time"></i>30 JAN, 2013 <a href="#" title="Show Comments"><i class="glyphicon glyphicon-comment"></i>11</a>
+							</div>
+							<div class="single-post-image">
+								<img src="img/blog-large.jpg" alt="Post Title">
+							</div>
+							<div class="single-post-content">
+								{{content}}
+							</div>
+							
+						</div>
+					</div>
+					<!-- End Blog Post -->
+					<!-- Sidebar -->
+					<div class="col-sm-4 blog-sidebar">
+						{% include JB/docs/slider %}
+					</div>
+					<!-- End Sidebar -->
+				</div>
+			</div>
+	    </div>

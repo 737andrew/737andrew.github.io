@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <meta name="author" content="{{ site.author.name }}">
+         <!-- Enable responsive viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/font-awesome/css/font-awesome.min.css">
+        <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
+
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/leaflet.css" />
+      <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/main.css">
+
+        <script src="{{ ASSET_PATH }}/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="{{ ASSET_PATH }}/css/lightbox.css" type="text/css" media="screen" />
+  <script src="{{ ASSET_PATH }}/js/jquery-1.7.2.min.js"></script>
+  <script src="{{ ASSET_PATH }}/js/jquery-ui-1.8.18.custom.min.js"></script>
+  <script src="{{ ASSET_PATH }}/js/jquery.smooth-scroll.min.js"></script>
+<script src="{{ ASSET_PATH }}/js/lightbox.js"> </script>
+
+    </head>
+
+
+        <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+
+        <!-- Navigation & Logo-->
+        <div class="mainmenu-wrapper">
+          <div class="container">
+            <div class="menuextras">
+          <div class="extras">
+            <ul class="follow">
+              <li>Следуй за мной &nbsp;
+              
+                 <a href="http://vk.com/id31485716" target="blanck"><i class="fa  fa-vk fa-2x"></i> </a>&nbsp;
+                 <a href="https://twitter.com/droboshok" target="blanck"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;&nbsp;
+                 <a href="https://www.facebook.com/droboshok" target="blanck"><i class="fa fa-facebook fa-2x"></i></a>
+              </li>
+                  
+                </ul>
+          </div>
+            </div>
+            <nav id="mainmenu" class="mainmenu">
+          <ul>
+            <li class="logo-wrapper"><a href="{{ BASE_PATH }}/index.html"><img src="{{ BASE_PATH }}/logo36.png" alt="Мнтажник-Все о гипсокартоне"></a></li>
+            {% for block in site.data.blocks %}
+        {% assign active = nil %}
+        {% if page.url contains block.url %}
+            {% assign active = 'active' %}
+        {% endif %}
+        <li class="{% if forloop.first %}{% endif %} {{ active }} {% if forloop.last %}{% endif %}">
+            <a href="{{ block.url }}">{{ block.title }}</a>
+        </li>
+    {% endfor %}
+            <!-- <li class="active">
+              <a href="price.html">Прайс</a>
+            </li>
+            <li>
+              <a href="foto1.html">Фото</a>
+            </li>
+            <li>
+              <a href="calc/index.html">Калькулятор</a>
+              
+            </li>
+            <li>
+              <a href="faq.html">FAQ</a>
+              
+            </li>
+            <li>
+              <a href="about.html">О нас</a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+    <div class="container-narrow">
+
+      
+        {{ content }}
+      
+      <hr>
+      {% include JB/docs/footer %}
+
+    </div>
+
+    {% include JB/analytics %}
+        <!-- Javascripts -->
+        <!-- // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="{{ ASSET_PATH }}/js/jquery-1.9.1.min.js"></script>
+        <script src="{{ ASSET_PATH }}/js/bootstrap.min.js"></script>
+        <!-- // <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script> -->
+        <script src="{{ ASSET_PATH }}/js/jquery.fitvids.js"></script>
+        <script src="{{ ASSET_PATH }}/js/jquery.sequence-min.js"></script>
+        <script src="{{ ASSET_PATH }}/js/jquery.bxslider.js"></script>
+        <script src="{{ ASSET_PATH }}/js/main-menu.js"></script>
+        <script src="{{ ASSET_PATH }}/js/template.js"></script>
+
+  </body>
+</html>

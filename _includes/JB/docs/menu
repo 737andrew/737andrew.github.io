@@ -1,0 +1,50 @@
+<!-- Navigation & Logo-->
+        <div class="mainmenu-wrapper">
+          <div class="container">
+            <div class="menuextras">
+          <div class="extras">
+            <ul class="follow">
+              <li>Следуй за мной &nbsp;
+              
+                 <a href="http://vk.com/id31485716" target="blanck"><i class="fa  fa-vk fa-2x"></i> </a>&nbsp;
+                 <a href="https://twitter.com/droboshok" target="blanck"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;&nbsp;
+                 <a href="https://www.facebook.com/droboshok" target="blanck"><i class="fa fa-facebook fa-2x"></i></a>
+              </li>
+                  
+                </ul>
+          </div>
+            </div>
+            <nav id="mainmenu" class="mainmenu">
+          <ul>
+          <li class="logo-wrapper"><a href="{{ BASE_PATH }}/index.html"><img src="{{ BASE_PATH }}/logo36.png" alt="Multipurpose Twitter Bootstrap Template"></a></li>
+          {% for link in site.data.links %}
+        {% assign active = nil %}
+        {% if page.url contains link.url %}
+            {% assign active = 'active' %}
+        {% endif %}
+        <li class="{% if forloop.first %}{% endif %} {{ active }} {% if forloop.last %}{% endif %}">
+            <a href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+    {% endfor %}
+            <!-- 
+            <li class="active">
+              <a href="price.html">Прайс</a>
+            </li>
+            <li>
+              <a href="foto1.html">Фото</a>
+            </li>
+            <li>
+              <a href="calc/index.html">Калькулятор</a>
+              
+            </li>
+            <li>
+              <a href="faq.html">FAQ</a>
+              
+            </li>
+            <li>
+              <a href="about.html">О нас</a>
+            </li> -->
+          </ul>
+        </nav>
+      </div>
+    </div>

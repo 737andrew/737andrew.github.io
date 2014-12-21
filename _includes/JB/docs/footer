@@ -1,0 +1,49 @@
+<div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-footer col-md-3 col-xs-6">
+              <h3>Наши последнии работы</h3>
+              <div class="portfolio-item">
+              <div class="portfolio-image">
+                <a href="page-portfolio-item.html"><img src="{{ BASE_PATH }}/img/portfolio6.jpg" alt="Project Name"></a>
+              </div>
+            </div>
+            </div>
+            <div class="col-footer col-md-3 col-xs-6">
+              <h3>Рубрики</h3>
+              <ul class="no-list-style footer-navigate-section">
+                <li><a href="news.php">Blog</a></li>
+                <li><a href="montag1.php">Монтаж</a></li>
+                <li><a href="svoystva.php">Свойства</a></li>
+                <li><a href="anekdoty.php">Юмор</a></li>
+                <li><a href="document.php">Документация</a></li>
+                <li><a href="faq.php">FAQ</a></li>
+              </ul>
+            </div>
+            
+            <div class="col-footer col-md-4 col-xs-6">
+              <h3>Контакты</h3>
+              <p class="contact-us-details">
+                  <b>Адресс:</b> г. Одесса<br/>
+                  <b>Тел:</b> +38 067 271 86 78<br/>
+                  <b>Тел:</b> +38 099 251 41 16<br/>
+                  <b>Email:</b> <a href="mailto:gips@montagnk.od.ua">gips@montagnik.od.ua</a>
+                </p>
+            </div>
+            <div class="col-footer col-md-2 col-xs-6">
+              <h3>Следуй за нами</h3>
+              <ul class="footer-stay-connected no-list-style">
+                <li><a href="https://twitter.com/droboshok" target="blanck" class="twitter"></a></li>
+              <li><a href="https://www.facebook.com/droboshok" target="blanck" class="facebook"></a></li>
+                <li><a href="https://plus.google.com/u/0/108695071705325082911/" target="blanck" class="googleplus"></a></li>
+              </ul>
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>

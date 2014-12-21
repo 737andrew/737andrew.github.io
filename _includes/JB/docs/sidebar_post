@@ -1,0 +1,8 @@
+					<h4>Похожие статьи</h4>
+						<ul class="blog-categories">
+							<li><a href="blog.html">Блог</a></li>
+							<li><a href="montag.html">Монтаж</a></li>
+							<li><a href="svoystva.html">Свойства</a></li>
+							<li><a href="document.html">Документация</a></li>
+							<li><a href="humor.html">Юмор</a></li>
+						</ul>
