@@ -18,11 +18,9 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-    <link rel="stylesheet" href="assets/themes/montag/css/main.css">
-
-        <script src="assets/themes/montag/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    
+    <link rel="stylesheet" href="assets/themes/montag/css/main.css" >
+    <script src="assets/themes/montag/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
 
 
@@ -50,7 +48,7 @@
             </div>
             <nav id="mainmenu" class="mainmenu">
           <ul>
-          <li class="logo-wrapper"><a href="{{ BASE_PATH }}/index.html"><img src="{{ BASE_PATH }}/logo36.png" alt="Мнтажник-Все о гипсокартоне"></a></li>
+          <li class="logo-wrapper"><a href="index.html"><img src="logo36.png" alt="Мнтажник-Все о гипсокартоне"></a></li>
           {% for link in site.data.links %}
         {% assign active = nil %}
         {% if page.url contains link.url %}
@@ -60,32 +58,12 @@
             <a href="{{ link.url }}">{{ link.title }}</a>
         </li>
     {% endfor %}
-            <!-- 
-            <li class="active">
-              <a href="price.html">Прайс</a>
-            </li>
-            <li>
-              <a href="foto1.html">Фото</a>
-            </li>
-            <li>
-              <a href="calc/index.html">Калькулятор</a>
-              
-            </li>
-            <li>
-              <a href="faq.html">FAQ</a>
-              
-            </li>
-            <li>
-              <a href="about.html">О нас</a>
-            </li> -->
           </ul>
         </nav>
       </div>
     </div>
 
-
-    <div class="container-narrow">
-
+   <div class="container-narrow">
       <div class="content">
         {{ content }}
       </div>
@@ -96,16 +74,13 @@
 
     {% include JB/analytics %}
         <!-- Javascripts -->
-        <!-- // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+        
         <script>window.jQuery || document.write('<script src="assets/themes/montag/js/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="assets/themes/montag/js/jquery-1.9.1.min.js"></script>
         <script src="assets/themes/montag/js/bootstrap.min.js"></script>
-        <!-- // <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script> -->
-        <script src="assets/themes/montag/js/jquery.fitvids.js"></script>
-        <script src="assets/themes/montag/js/jquery.sequence-min.js"></script>
-        <script src="assets/themes/montag/js/jquery.bxslider.js"></script>
+        
         <script src="assets/themes/montag/js/main-menu.js"></script>
-        <script src="assets/themes/montag/js/template.js"></script>
+       
 
   </body>
 </html>
