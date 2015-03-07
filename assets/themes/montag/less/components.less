@@ -1174,7 +1174,39 @@ span.color-red{
 	}
 
 }
+.in-press1{
+	a{
+		color: lighten(@font-color, 30%);
+		font-size: 1.3em;
+		font-family: Georgia, serif;
+		line-height: 28px;
+		position: relative;
+		padding-left: 16px;
+		padding-bottom: 32px;
+		margin-bottom: 15px;
+		display: block;
+		.transition(~"color .25s linear");
+		&:hover{
+			color: @theme-color;
+			text-decoration: none;
+		}
+		&:after{
+			content: '';
+			display: block;
+			position: absolute;
+			bottom: -10px;
+			right: 20px;
+			width: 120px;
+			height: 32px;
+		}
+		&:before {
+			content: "\201C";
+			margin-left: -16px;
+			font-size: 2.2em;
+		}
+	}
 
+}
 // Change the below classes and image to meet your press coverage
 
 .press-wired a{
@@ -2315,7 +2347,7 @@ span.color-red{
 		li{
 			padding: 0 8px;
 			a{
-				color: #333;
+				color: #4f8db3;
 				&:hover{
 					color: #333;
 					text-decoration: none;
