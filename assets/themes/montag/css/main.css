@@ -72,7 +72,7 @@ body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #003333;
+  color: #333333;
 }
 h1 {
   color: #53555c;
@@ -482,7 +482,7 @@ a:hover {
 .latest-news .caption a {
   font-size: 1.1em;
   font-weight: 600;
-  color: #003333;
+  color: #333333;
 }
 .featured-news .intro,
 .latest-news .intro {
@@ -589,7 +589,7 @@ a:hover {
   padding-top: 10px;
 }
 .post-title h3 a {
-  color: #003333;
+  color: #333333;
 }
 .post-summary {
   margin: 10px 20px;
@@ -724,7 +724,7 @@ a:hover {
 }
 .blog-sidebar .recent-posts a,
 .blog-sidebar .blog-categories a {
-  color: #003333;
+  color: #333333;
 }
 /*--------------------------------------------------------------------------
 +	E-commerce Style
@@ -762,7 +762,7 @@ a:hover {
   text-align: center;
 }
 .shop-item .title h3 a {
-  color: #003333;
+  color: #333333;
   text-transform: uppercase;
 }
 .shop-item .colors {
@@ -779,7 +779,7 @@ a:hover {
   margin: 2px;
 }
 .shop-item .price {
-  color: #003333;
+  color: #333333;
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 20px;
@@ -966,7 +966,7 @@ span.color-red {
   border-spacing: 0 10px;
 }
 .shopping-cart a {
-  color: #003333;
+  color: #333333;
 }
 .shopping-cart tr {
   background: #FFF;
@@ -1014,7 +1014,7 @@ span.color-red {
   width: 80px;
 }
 .shopping-cart .price {
-  color: #003333;
+  color: #333333;
   font-size: 1.2em;
   width: 80px;
   text-align: center;
@@ -1162,7 +1162,7 @@ span.color-red {
   border-bottom: 1px solid #E6E6E6;
 }
 .job-position a {
-  color: #003333;
+  color: #333333;
   font-size: 1.1em;
 }
 .job-location,
@@ -1353,7 +1353,7 @@ span.color-red {
 +	'In Press' Style
 --------------------------------------------------------------------------*/
 .in-press a {
-  color: #00cccc;
+  color: #808080;
   font-size: 1.3em;
   font-family: Georgia, serif;
   line-height: 28px;
@@ -1394,7 +1394,7 @@ span.color-red {
   font-size: 2.2em;
 }
 .in-press1 a {
-  color: #006666;
+  color: #7c7c7c;
   font-size: 1.3em;
   font-family: Georgia, serif;
   line-height: 28px;
@@ -1638,7 +1638,7 @@ span.color-red {
   padding: 0;
 }
 .sitemap a {
-  color: #003333;
+  color: #333333;
 }
 .sitemap li {
   padding: 10px 0;
@@ -1862,7 +1862,7 @@ span.color-red {
 .nav-tabs > li > a {
   font-size: 1.1em;
   padding: 10px 15px;
-  color: #003333;
+  color: #333333;
 }
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
