@@ -69,10 +69,10 @@ div[class*="span"] {
 	Typography Style
 --------------------------------------------------------------------------*/
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #535b60;
+  color: #003333;
 }
 h1 {
   color: #53555c;
@@ -482,7 +482,7 @@ a:hover {
 .latest-news .caption a {
   font-size: 1.1em;
   font-weight: 600;
-  color: #535b60;
+  color: #003333;
 }
 .featured-news .intro,
 .latest-news .intro {
@@ -589,7 +589,7 @@ a:hover {
   padding-top: 10px;
 }
 .post-title h3 a {
-  color: #535b60;
+  color: #003333;
 }
 .post-summary {
   margin: 10px 20px;
@@ -635,8 +635,8 @@ a:hover {
   border-bottom: 2px dotted #CCC;
 }
 .single-post-content p {
-  color: #828282;
-  font-size: 0.9em;
+  color: #003333;
+  font-size: 1em;
   text-align: justify;
 }
 .post-comments {
@@ -724,7 +724,7 @@ a:hover {
 }
 .blog-sidebar .recent-posts a,
 .blog-sidebar .blog-categories a {
-  color: #535b60;
+  color: #003333;
 }
 /*--------------------------------------------------------------------------
 +	E-commerce Style
@@ -762,7 +762,7 @@ a:hover {
   text-align: center;
 }
 .shop-item .title h3 a {
-  color: #535b60;
+  color: #003333;
   text-transform: uppercase;
 }
 .shop-item .colors {
@@ -779,7 +779,7 @@ a:hover {
   margin: 2px;
 }
 .shop-item .price {
-  color: #535b60;
+  color: #003333;
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 20px;
@@ -966,7 +966,7 @@ span.color-red {
   border-spacing: 0 10px;
 }
 .shopping-cart a {
-  color: #535b60;
+  color: #003333;
 }
 .shopping-cart tr {
   background: #FFF;
@@ -1014,7 +1014,7 @@ span.color-red {
   width: 80px;
 }
 .shopping-cart .price {
-  color: #535b60;
+  color: #003333;
   font-size: 1.2em;
   width: 80px;
   text-align: center;
@@ -1162,7 +1162,7 @@ span.color-red {
   border-bottom: 1px solid #E6E6E6;
 }
 .job-position a {
-  color: #535b60;
+  color: #003333;
   font-size: 1.1em;
 }
 .job-location,
@@ -1353,7 +1353,7 @@ span.color-red {
 +	'In Press' Style
 --------------------------------------------------------------------------*/
 .in-press a {
-  color: #a0a7ac;
+  color: #00cccc;
   font-size: 1.3em;
   font-family: Georgia, serif;
   line-height: 28px;
@@ -1394,7 +1394,7 @@ span.color-red {
   font-size: 2.2em;
 }
 .in-press1 a {
-  color: #a0a7ac;
+  color: #006666;
   font-size: 1.3em;
   font-family: Georgia, serif;
   line-height: 28px;
@@ -1638,7 +1638,7 @@ span.color-red {
   padding: 0;
 }
 .sitemap a {
-  color: #535b60;
+  color: #003333;
 }
 .sitemap li {
   padding: 10px 0;
@@ -1862,7 +1862,7 @@ span.color-red {
 .nav-tabs > li > a {
   font-size: 1.1em;
   padding: 10px 15px;
-  color: #535b60;
+  color: #003333;
 }
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover,
