@@ -3,12 +3,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
 					</div>
 				</div>
 			</div>
 		</div>
-        
         <div class="section">
 	    	<div class="container">
 				<div class="row">
@@ -16,17 +14,29 @@
 					<div class="col-sm-8">
 						<div class="blog-post blog-single-post">
 							<div class="single-post-title">
-								<h3>Post Title</h3>
+								<h3>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h3>
 							</div>
 							<div class="single-post-info">
-								<i class="glyphicon glyphicon-time"></i>30 JAN, 2013 <a href="#" title="Show Comments"><i class="glyphicon glyphicon-comment"></i>11</a>
+								<i class="fa fa-clock-o"></i> {{ page.time_publish }}
+								<!-- {{ site.time | date: "%d-%m-%Y" }} -->
 							</div>
-							<div class="single-post-image">
-								<img src="img/blog-large.jpg" alt="Post Title">
-							</div>
+							
 							<div class="single-post-content">
 								{{content}}
 							</div>
+							<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'montagnik';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 							
 						</div>
 					</div>

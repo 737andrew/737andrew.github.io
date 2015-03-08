@@ -3,7 +3,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+						<h1> Фотогалерея выполненных работ</h1>
 					</div>
 				</div>
 			</div>
@@ -13,19 +13,36 @@
 	    	<div class="container">
 				<div class="row">
 					<!-- Blog Post -->
-					<div class="col-sm-12">
+					<div class="col-sm-8">
 						<div class="blog-post blog-single-post">
 							
 							
 							<div class="single-post-content">
 								{{content}}
 							</div>
-							
+							  <div class="pagination-wrapper ">
+          <ul class="pagination pagination-lg">
+            <li><a href="foto1.html">Начало</a></li>
+            {% for link in site.data.fotos %}
+       			 {% assign active = nil %}
+        	 		{% if page.url contains link.url %}
+            		{% assign active = 'active' %}
+       			 {% endif %}
+        		<li class="{% if forloop.first %}{% endif %} {{ active }} {% if forloop.last %}{% endif %}">
+           			 <a href="{{ link.url }}">{{ link.title }}</a>
+       			 </li>
+    		{% endfor %}
+            
+            <li><a href="foto5.html">Конец</a></li>
+          </ul>
+        </div>
 						</div>
 					</div>
 					<!-- End Blog Post -->
 					<!-- Sidebar -->
-					
+					<div class="col-sm-4 blog-sidebar">
+						{% include JB/docs/slider %}
+					</div>					
 					<!-- End Sidebar -->
 				</div>
 			</div>

@@ -93,6 +93,7 @@ task :page do
     post.puts "layout: page"
     post.puts "title: \"#{title}\""
     post.puts 'description: ""'
+    post.puts 'time_publish: ""'
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end

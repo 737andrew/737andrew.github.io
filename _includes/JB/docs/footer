@@ -5,28 +5,28 @@
               <h3>Наши последнии работы</h3>
               <div class="portfolio-item">
               <div class="portfolio-image">
-                <a href="page-portfolio-item.html"><img src="{{ BASE_PATH }}/img/portfolio6.jpg" alt="Project Name"></a>
+                <a href="page-portfolio-item.html"><img src="img/4.jpg" alt="Project Name"></a>
               </div>
             </div>
             </div>
             <div class="visible-lg col-footer col-md-3 col-xs-6">
               <h3>Рубрики</h3>
               <ul class="no-list-style footer-navigate-section">
-                <li><a href="news.php">Blog</a></li>
-                <li><a href="montag1.php">Монтаж</a></li>
-                <li><a href="svoystva.php">Свойства</a></li>
-                <li><a href="document.php">Документация</a></li>
-                <li><a href="faq.php">FAQ</a></li>
+                <li><a href="news.html">Blog</a></li>
+                <li><a href="montag1.html">Монтаж</a></li>
+                <li><a href="svoystva.html">Свойства</a></li>
+                <li><a href="document.html">Документация</a></li>
+                <li><a href="faq.html">FAQ</a></li>
               </ul>
             </div>
 <div class="hidden-lg col-footer col-md-3 col-xs-6">
               <h3>Рубрики</h3>
               <ul class="no-list-style footer-navigate-section">
-                <li><a href="news.php">Blog</a></li><br>
-                <li><a href="montag1.php">Монтаж</a></li><br>
-                <li><a href="svoystva.php">Свойства</a></li><br>
-                <li><a href="document.php">Документация</a></li><br>
-                <li><a href="faq.php">FAQ</a></li><br>
+                <li><a href="news.html">Blog</a></li><br>
+                <li><a href="montag1.html">Монтаж</a></li><br>
+                <li><a href="svoystva.html">Свойства</a></li><br>
+                <li><a href="document.html">Документация</a></li><br>
+                <li><a href="faq.html">FAQ</a></li><br>
               </ul>
             </div>
 
@@ -35,8 +35,8 @@
               <h3>Контакты</h3>
               <p class="contact-us-details">
                   <b>Адресс:</b> г. Одесса<br/>
-                  <b>Тел:</b> +38 067 271 86 78<br/>
-                  <b>Тел:</b> +38 099 251 41 16<br/>
+                  <b>Тел:</b> &#43;&#51;&#56;&#32;&#48;&#54;&#55;&#32;&#50;&#55;&#49;&#32;&#56;&#54;&#32;&#55;&#56;<br/>
+                  <b>Тел:</b> &#43;&#51;&#56;&#32;&#48;&#57;&#57;&#32;&#50;&#53;&#49;&#32;&#52;&#49;&#32;&#49;&#54;<br/>
                   <b>Email:</b> &#103;&#105;&#112;&#115;&#64;&#109;&#111;&#110;&#116;&#97;&#103;&#110;&#105;&#107;&#46;&#111;&#100;&#46;&#117;&#97;
                 </p>
             </div>

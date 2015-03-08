@@ -7,48 +7,38 @@
         <meta name="author" content="{{ site.author.name }}">
          <!-- Enable responsive viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <link rel="stylesheet" href="assets/themes/montag/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/themes/montag/font-awesome/css/font-awesome.min.css">
-        <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
-
+         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'> 
         <link rel="stylesheet" href="assets/themes/montag/css/leaflet.css" />
       <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    
+    <![endif]--> 
     <link rel="stylesheet" href="assets/themes/montag/css/main.css" >
-    
+     
     </head>
-
-
         <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-        
-
-        <!-- Navigation & Logo-->
+        <![endif]-->    
+       <!-- Navigation & Logo-->
         <div class="mainmenu-wrapper">
           <div class="container">
             <div class="menuextras">
           <div class="extras">
             <ul class="follow">
               <li>Следуй за мной &nbsp;
-              
                  <a href="http://vk.com/id31485716" target="blanck"><i class="fa  fa-vk fa-2x"></i> </a>&nbsp;
                  <a href="https://twitter.com/droboshok" target="blanck"><i class="fa fa-twitter fa-2x"></i></a>&nbsp;&nbsp;
                  <a href="https://www.facebook.com/droboshok" target="blanck"><i class="fa fa-facebook fa-2x"></i></a>
               </li>
-                  
                 </ul>
           </div>
             </div>
             <nav id="mainmenu" class="mainmenu">
           <ul>
-          <li class="logo-wrapper"><a href="index.html"><img src="logo36.png" alt="Мнтажник-Все о гипсокартоне"></a></li>
+          <li class="logo-wrapper"><a href="index.html"><img src="logo36.png" alt="Монтажник-Все о гипсокартоне"></a></li>
           {% for link in site.data.links %}
         {% assign active = nil %}
         {% if page.url contains link.url %}
@@ -69,17 +59,26 @@
       </div>
       <hr>
       {% include JB/docs/footer %}
-
     </div>
 
     {% include JB/analytics %}
         <!-- Javascripts -->
-        
         <script>window.jQuery || document.write('<script src="assets/themes/montag/js/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="assets/themes/montag/js/jquery-1.9.1.min.js"></script>
         <script src="assets/themes/montag/js/bootstrap.min.js"></script>
-        
         <script src="assets/themes/montag/js/main-menu.js"></script>
+        <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'montagnik';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
        
 
   </body>
