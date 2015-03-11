@@ -92,6 +92,7 @@ task :page do
     post.puts "---"
     post.puts "layout: page"
     post.puts "title: \"#{title}\""
+    post.puts 'title_name: ""'
     post.puts 'description: ""'
     post.puts 'time_publish: ""'
     post.puts "---"
