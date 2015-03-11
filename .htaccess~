@@ -1,0 +1,9 @@
+AddDefaultCharset Utf-8
+
+ErrorDocument 404 /404.html
+
+RemoveHandler .html .htm 
+#AddType application/x-httpd-php5 .php .htm .html .phtml
+
+AddHandler application/x-httpd-php5 .php .html .shtml .htm
+

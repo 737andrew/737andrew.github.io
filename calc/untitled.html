@@ -1,0 +1,257 @@
+
+	    
+                                                                        <section>
+                            <div class="row">
+                               <div class="span8" >
+                                    <div>
+                                    <!--page-->
+                                        
+    <td><table width="100%" border="0">
+  <tr>
+    <td><h2 align="center">калькулятор </h2>
+		  <p>Наш онлайн-калькулятор поможет Вам произвести предварительный расчет расхода и стоимости гипсокартона.На нашем сайте представлены расчеты самых востребованных изделий .</p>
+<img src="img/ceiling_1_ur.jpg" align="left" alt="Расчет потолка с одноуровневым каркасом" title="Расчет расхода и стоимости потолка с одноуровневым каркасом">
+		  <p>Потолок с одноуровневымкаркасом используется в помещениях разного назначения, как для реконструкции так и в новстрое. Предназначен для отделки, скрытия коммуникаций, повышения звуко- и теплоизоляции.</p>
+		  <p>Для расчета расхода и стоимости гипсокартонного потолка с одноуровневым каркасом  введите параметры помещения:</p>		 </td>
+  </tr>
+</table>		   		  		   
+	   		 <form action="<?php $_SERVER['../PHP_SELF']; ?>" method="post" name="form">
+	 <?php include("material.php"); ?>
+	 <table width="513" border="0" align="center" cellpadding="0" cellspacing="4">	 
+  <tr>
+    <td class="tup">Длина : <input type="text" id="td5" name="lang" class="intext" /> m</td><br>
+  </tr>
+   <tr>
+    <td class="tup">Ширина : 
+      <input type="text" id="td5" name="wight" class="intext" /> m</td>
+  </tr>
+</table>
+<table width="513" border="0" align="center" cellpadding="0" cellspacing="4">
+  <tr>
+    <td align="right">&nbsp;<input name="Submit" type="submit" class="tup" value="расчитать" /></td>
+  </tr></table>
+	  <table width="513"  border="1" align="center" class="tup">
+        <tr>
+		<td width="15">1</td>
+          <td width="352"><?php echo $gips ?></td>
+          <td width="70"><?php echo $wgips ?></td>
+          <td width="70"><?php echo $ygips ?>&nbsp;у.е.</td>          
+        </tr>
+        <tr>
+		<td>2</td>
+          <td><?php echo $cd ?></td>
+          <td><?php echo $wcd ?></td>
+          <td><?php echo $ycd ?>&nbsp;у.е.</td>        
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><?php echo $ud ?></td>
+          <td><?php echo $wud ?></td>
+          <td><?php echo $yud ?>&nbsp;у.е.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><?php echo $ccd ?></td>
+          <td><?php echo $wccd ?></td>
+          <td><?php echo $yccd ?>&nbsp;у.е.</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><?php echo $crab ?></td>
+          <td><?php echo $wcrab ?></td>
+          <td><?php echo $ycrab ?>&nbsp;у.е.</td>
+        </tr>
+        <tr>
+          <td>6а</td>
+          <td><?php echo $pod  ?></td>
+          <td><?php echo $wpod ?></td>
+          <td><?php echo $ypod ?>&nbsp;у.е.</td>
+        </tr>
+        <tr>
+          <td>6б</td>
+          <td><?php echo $prov ?></td>
+          <td><?php echo $wprov ?></td>
+          <td><?php echo $yprov ?>&nbsp;у.е.</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><?php echo $tn ?> </td>
+          <td><?php echo  $wtn?></td>
+          <td><?php echo $ytn ?>&nbsp;у.е.</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><?php echo $tdn ?></td>
+          <td><?php echo $wtdn ?></td>
+          <td><?php echo $ytdn ?>&nbsp;у.е.</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><?php echo $dub ?></td>
+          <td><?php echo $wdub ?></td>
+          <td><?php echo $ydub ?>&nbsp;у.е.</td>
+        </tr>
+		        <tr>
+          <td>10</td>
+          <td><?php echo $len ?></td>
+          <td><?php echo $wlen ?></td>
+          <td><?php echo $ylen ?>&nbsp;у.е.</td>
+        </tr>
+		        <tr>
+          <td>11</td>
+          <td><?php echo $fug ?></td>
+          <td><?php echo $wfug ?></td>
+          <td><?php echo $yfug ?>&nbsp;у.е.</td>
+        </tr>
+						        <tr>
+          <td>&nbsp;</td>
+          <td><?php echo $ln9 ?></td>
+          <td><?php echo $wln9 ?></td>
+          <td><?php echo $yln9 ?>&nbsp;у.е.</td>
+        </tr>
+				        <tr>
+          <td>&nbsp;</td>
+          <td>ИТОГО</td>
+          <td>&nbsp;</td>
+          <td><?php echo $sum_1 ?>&nbsp;у.е.</td>
+        </tr>
+				        <tr>
+          <td>&nbsp;</td>
+          <td>возможные замены</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+				        <tr>
+          <td>6в</td>
+          <td><?php echo $uho ?></td>
+          <td><?php echo $wuho ?></td>
+          <td><?php echo $yuho ?>&nbsp;у.е.</td>
+        </tr>
+      </table> </form> 
+		 <p align="center">Также Вы можете произвести расчет:<br>
+		   <a href="ceiling_2.php" class="top">- потолоков c двухуровневым каркасом</a><br>
+		   <span class="top"><a href="wall.php">- стен</a></span><br>
+		   <a href="partition.php" class="top">- перегородок</a><br>
+           <br>
+*Все цены указаны в ознокомительных целях.Это средняя цена по Одессе в марте 2009г.	     </p> 
+<!--/page-->
+<div align="center">
+
+</div>
+ </div>
+								</div>
+                                <div class="span8"><hr></div>
+                                <div class="span8">
+<!-- You can start editing here. -->
+<div>
+</div>
+<div class="clear"></div>
+<div id="respond">
+</div>
+</div>
+                            </div>
+                        </section>
+ <section>
+	                        <hr style="margin-top:0px;">
+							<ul class="pager" style="float:left;"> </ul>
+                        </section>
+                    </div>
+                    <!--/Page contetn-->
+                    <!--Sidebar-->
+                    <div class="span4 side_bar">
+                        <section class="blog_cat">
+                            <div class="well">
+                               	<div class="side_bar_widget"><h4><span class="colored">///</span> Топ статей</h4>
+                                     <hr>
+                                  	<ul>
+                                        <li><a href="http://montagnik.od.ua/docs/arca.html">Делаем арку из гипсокартона</a></li>
+                                        <li><a href="http://montagnik.od.ua/potolki.html">Потолки из гипсокартона</a></li>
+                                        <li><a href="http://montagnik.od.ua/stena.html">Стены из гипсокартона</a></li>
+                                        <li><a href="http://montagnik.od.ua/svoystva.html">Свойства гипсокартона</a></li>
+									</ul>
+								</div>		
+								<div class="side_bar_widget"><h4><span class="colored">///</span> Свежие записи</h4> <hr>
+                                     <ul> 
+                                        <li><a href="http://montagnik.od.ua/blogun-sistema-monetizacii-sajtov.html">&laquo;Блогун&raquo;- система монетизации сайтов</a></li>
+                                        <li><a href="http://montagnik.od.ua/zarabotok-v-seti.html">заработок в сети</a></li>
+                                        <li><a href="http://montagnik.od.ua/anekdoty.html">анекдоты</a></li>
+                                        <li><a href="http://montagnik.od.ua/docs/arca.html">Делаем арку из гипсокартона</a></li>
+                                        <li><a href="http://montagnik.od.ua/svoystva.html">Свойства гипсокартона</a></li>
+                                    </ul>
+		   						</div>
+        <div class="side_bar_widget"><h4><span class="colored">///</span> Архивы</h4><hr>
+          <div align="center">
+            <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="240" height="400">
+              <param name="movie" value="http://img.sape.ru/bn/sape_016.swf"/><param name="bgcolor" value="#FFFFFF"/><param name="quality" value="high"><param name="flashvars" value="ref_id=qEnXumkZBz"><param name="allowscriptaccess" value="samedomain"><embed type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" width="240" height="400" src="http://img.sape.ru/bn/sape_016.swf" bgcolor="#FFFFFF" quality="high" flashvars="ref_id=qEnXumkZBz"/></object>
+          </div>		
+        </div>
+			<div class="side_bar_widget"><h4><span class="colored">///</span> Интересное в сети</h4> <hr>
+				<ul>
+				
+				</ul>
+			</div> 
+              </div>
+               </section>
+                    </div>
+                    <!--/Sidebar-->
+                </div>
+            </div>
+ <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="span3">
+                    <img src="http://montagnik.od.ua/img/Feeds_Green1.png" alt="logo" style="margin-bottom:7px; margin-top:7px;" />
+                	<hr class="visible-phone">
+                </div>
+                <div class="span3">
+                    <h5><span class='colored'>///</span>Монтаж</h5>
+                    <p style="text-indent: 0px;"><a href="http://montagnik.od.ua/montag1.html">Монтаж гипсокартона</a>  <br>
+<a href="http://montagnik.od.ua/potolki.html">Потолки из гипсокартона</a><br>
+<a href="http://montagnik.od.ua/desing1.html">Дизайн потолка</a><br>
+<a href="http://montagnik.od.ua/stena.html">Стены из гипсокартона</a><br>
+<a href="http://montagnik.od.ua/profili.html">Профиля для гипсокартона</a><br>
+<a href="http://montagnik.od.ua/work.html">Работа с гипсокартоном</a><br>
+<a href="http://montagnik.od.ua/paint.html">Окраска гипсокартона</a><br>
+<a href="http://auto.montagnik.od.ua/remont-zamka-zazhiganiya-golf-3.html" target="blank">Контактная группа</a>
+</p>
+                    <hr class="visible-phone">
+                </div>
+                <div class="span3 flickr">
+                    <h5><span class='colored'>///</span>СВОЙСТВА</h5>
+                    <p style="text-indent: 0px;"><a  href="http://montagnik.od.ua/gipsokarton.html">Гипсокартон</a><br>
+<a href="http://montagnik.od.ua/svoystva.html">Свойства гипсокартона</a><br>
+<a href="http://montagnik.od.ua/vid.html"> Виды гипсокартона</a> <br>        
+<a href="http://montagnik.od.ua/structura.html">Структура гипсокартона</a><br>
+<a href="http://montagnik.od.ua/technology.html">Технологии</a><br>
+<a href="http://montagnik.od.ua/histori.html">История гипсокартона</a><br>
+<a href="http://montagnik.od.ua/future.html">Будущее и гипсокартон</a><br></p>
+                </div>
+                <div class="span3 soc_icons">
+                    <h5><span class='colored'>///</span> Контакты</h5>
+                    <p style="text-indent: 0px;"><span><strong class="colored">Адрес:</strong> г.Одесса</span><br />
+<span><strong class="colored">тел:</strong> +38 067 271 86 78</span><br />
+<span><strong class="colored">тел:</strong> +38 099 251 41 16</span><br />
+<span><strong class="colored">Сайт:</strong> http://montagnik.od.ua</span><br />
+<span><strong class="colored">E-mail:</strong> gips@montagnik.od.ua</span></p></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/FOOTER-->
+        <!--BOTTOM LINE-->
+    <div class="bottom-block">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="span6">
+                            <span>Copyright 2012 Design by <span class='undercolored'><a href='http://montagnik.od.ua/abaut.html'>montagnik.od.ua</a></span></span>
+                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	</body>
+</html>
