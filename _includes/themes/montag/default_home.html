@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="Cache-Control" content="no-cache" />
+        <!-- <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate" />  -->
         <title>{{ page.title }}</title>
         {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
         <meta name="author" content="{{ site.author.name }}">
@@ -18,7 +18,7 @@
 
         <link rel="stylesheet" href="assets/themes/montag/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/themes/montag/font-awesome/css/font-awesome.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'> 
+        <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>  -->
 
         <link rel="stylesheet" href="assets/themes/montag/css/leaflet.css" />
       <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -56,19 +56,19 @@
             </div>
             <nav id="mainmenu" class="mainmenu">
           <ul>
-            <li class="logo-wrapper"><a href="{{ BASE_PATH }}index.html"><img src="{{ BASE_PATH }}logo36.png" alt="Мнтажник-Все о гипсокартоне"></a></li>
+            <li class="logo-wrapper"><a href="index.html"><img src="logo36.png" alt="Мнтажник-Все о гипсокартоне"></a></li>
             <li>
-              <a href="price.html">Прайс</a>
+              <a href="/price.html">Прайс</a>
             </li>
             <li>
-              <a href="foto1.html">Фото</a>
+              <a href="/foto1.html">Фото</a>
             </li>
             <li>
-              <a href="calc/index.php">Калькулятор</a>
+              <a href="/calc/index.php">Калькулятор</a>
               
             </li>
             <li>
-              <a href="faq.html">FAQ</a>
+              <a href="/faq.html">FAQ</a>
               
             </li>
             <li class="has-submenu">
@@ -177,7 +177,7 @@
         <!-- Javascripts -->
         <!-- // <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="assets/themes/montag/js/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="assets/themes/montag/js/jquery-1.9.1.min.js"></script>
+        
         <script src="assets/themes/montag/js/bootstrap.min.js"></script>
         <!-- // <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script> -->
         <script src="assets/themes/montag/js/jquery.fitvids.js"></script>

@@ -5,28 +5,28 @@
               <h3>Наши последнии работы</h3>
               <div class="portfolio-item">
               <div class="portfolio-image">
-                <a href="page-portfolio-item.html"><img src="img/4.jpg" alt="Project Name"></a>
+                <a href="page-portfolio-item.html"><img src="/img/4.jpg" alt="Project Name"></a>
               </div>
             </div>
             </div>
             <div class="visible-lg col-footer col-md-3 col-xs-6">
               <h3>Рубрики</h3>
               <ul class="no-list-style footer-navigate-section">
-                <li><a href="news.html">Blog</a></li>
-                <li><a href="montag1.html">Монтаж</a></li>
-                <li><a href="properties.html">Свойства</a></li>
-                <li><a href="document.html">Документация</a></li>
-                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="/news.html">Blog</a></li>
+                <li><a href="/montag1.html">Монтаж</a></li>
+                <li><a href="/properties.html">Свойства</a></li>
+                <li><a href="/document.html">Документация</a></li>
+                <li><a href="/faq.html">FAQ</a></li>
               </ul>
             </div>
 <div class="hidden-lg col-footer col-md-3 col-xs-6">
               <h3>Рубрики</h3>
               <ul class="no-list-style footer-navigate-section">
-                <li><a href="news.html">Blog</a></li><br>
-                <li><a href="montag1.html">Монтаж</a></li><br>
-                <li><a href="properties.html">Свойства</a></li><br>
-                <li><a href="document.html">Документация</a></li><br>
-                <li><a href="faq.html">FAQ</a></li><br>
+                <li><a href="/news.html">Blog</a></li><br>
+                <li><a href="/montag1.html">Монтаж</a></li><br>
+                <li><a href="/properties.html">Свойства</a></li><br>
+                <li><a href="/document.html">Документация</a></li><br>
+                <li><a href="/faq.html">FAQ</a></li><br>
               </ul>
             </div>
 
