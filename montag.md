@@ -36,7 +36,7 @@ time_publish: ""
 	<div class="row">
 		<div class="col-xs-3"><a href="desing1.html"><img src="images/desing-tn.jpg" alt="Дизайн гипсокартона"></a></div>
 		<div class="col-xs-9">
-			<div class="caption"><a href="desing1.html">Стены из гипсокартона</a></div>
+			<div class="caption"><a href="desing1.html">Дизайн гипсокартона</a></div>
 			<div class="date">05-03-2009 </div>
 			<div class="intro">Если бы вы делали ремонт 15 – 20 лет назад, то вы бы даже не задумывались о потолочном дизайне. Тогда, самое главное, чтобы потолок был ровный, аккуратный и покрыт обычной побелкой. Но время не стоит на месте, сейчас потолочному дизайну уделяется много внимания<a href="desing1.html">Читать дальше...</a></div>
 		</div>

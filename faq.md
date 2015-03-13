@@ -6,111 +6,135 @@ description: ""
 {% include JB/setup %}
 
 <div class="panel-group" id="accordion2">
-							<h3>General Questions</h3>
+
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse11">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor?
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse10">На какую высоту опустятся гипсокартонные потолки?
+									</a>
+								</div>
+								<div id="collapse10" class="accordion-body collapse">
+									<div class="accordion-inner">
+										<div class="answer">Ответ:</div>
+										<p>Минимальная высота на которую опустятся потолки состовляет 4см от "нулевого уровня" (самая нижняя точка на существующем перекрытии). При наличии врезных светильников, уровень потолка опустится ниже, что определяется высотой светильников.</p>
+									</div>
+								</div>
+							</div>		
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse11">Можно ли использовать гипсокартон,как основу для облицовки кафельной плиткой в ванной комнате?
 									</a>
 								</div>
 								<div id="collapse11" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+										<div class="answer">Ответ:</div>
+										<p>Да, можно. При этом необходимо сделать усиленный каркас: шаг профилей - 400 мм; ещё как дополнение - монтаж второго слоя ГКЛ</p>
 									</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse12">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem?
+										Что необходимо учитывать при планировании установки подвесных потолков?
 									</a>
 								</div>
 								<div id="collapse12" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</p>
-									</div>
+										<div class="answer">Ответ:</div>
+										<p>В фазе планирования нужно обязательно учитывать минимальную высоту подвески, высоту встроенных светильников, вентиляции и других комуникаций.Также индивидуальные требования по противопожарной безопасности и акустике.</p>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse13">
-										Quisque nec tincidunt lectus. Nulla sit amet auctor leo?
+										Возможна ли отделка оконных откосов листами гкл на клею?
 									</a>
 								</div>
 								<div id="collapse13" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>Pellentesque in velit et enim porta aliquam. Curabitur eget ligula dui, a euismod lectus. Phasellus eget facilisis nulla. Suspendisse sit amet dui nisl.</p>
+										<div class="answer">Ответ:</div>
+										<p>При монтаже оконных откосов применение гипсокартонных листов возможно, однако рекомендуется применять влагостойкий гипсокартон, что обусловленно наличием у него пропитки антисептиками. Стены соприкасающиеся с клеем не должны промерзать, а это возможно лишь при наличии правильной теплоизоляции и отсутствии трещин и негерметичности в месте примыкания окна к проему.</p>
 									</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse14">
-										Sed mollis, lorem ut tempor scelerisque, turpis enim tincidunt mi, eget venenatis neque eros in ipsum. Fusce in augue ante?
+										Возможно ли прикрипить натяжной потолок к коробам из гипсокартона?
 									</a>
 								</div>
 								<div id="collapse14" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>Aenean nec mi a nisl molestie pretium nec sed velit. Vestibulum ultrices, arcu vitae varius pulvinar, justo sapien mollis dui, eget dapibus massa felis sed nulla. Maecenas in varius nulla. Praesent mollis diam vitae libero sollicitudin commodo lobortis tortor tempor. Fusce rutrum orci consequat nunc ultricies egestas. Sed vitae tortor sapien. Vivamus ac libero eu arcu aliquet pretium eu vitae sem. Sed tincidunt varius pellentesque.</p>
+										<div class="answer">Ответ:</div>
+										<p>Да возможно.Шаг профилей к которым будет крепится натяжной потолок должна состовлять 300-400 мм</p>
 									</div>
 								</div>
 							</div>
-							<h3>Orders</h3>
+							
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse21">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor?
+										Есть ли разница, какие клеить обои на гипсокартон?
 									</a>
 								</div>
 								<div id="collapse21" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+										<div class="answer">Ответ:</div>
+										<p>При правильной огрунтовке поверхности и грамотной обработке стыков на ГК можно наклеивать любые виды обоев, будь они бумажные или шелкографические.</p>
 									</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse22">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem?
+										Обладает ли гипсокартон звукоизолирующими свойствами?
 									</a>
 								</div>
 								<div id="collapse22" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</p>
+										<div class="answer">Ответ:</div>
+										<p>Гипсокартон имеет довольно высокий коэффициент звукопоглащения, поэтому позволяет добиться увеличения звукоизоляции на 50-60%.</p>
 									</div>
 								</div>
 							</div>
-							<h3>Our Services</h3>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse31">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor?
+										Какую толщину гипсокартона надо использовать на потолок?
 									</a>
 								</div>
 								<div id="collapse31" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+										<div class="answer">Ответ:</div>
+										<p>На потолок необходимо использовать гипсокартон толщиной 12,5мм. При использовании гипсокартона 9,5мм монтаж производится в 2 слоя</p>
 									</div>
 								</div>
 							</div>
 							<div class="panel panel-default">
 								<div class="panel-heading">
 									<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapse32">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem?
+										Можно ли повесить люстру на потолок из гипсокартона ?
 									</a>
 								</div>
 								<div id="collapse32" class="accordion-body collapse">
 									<div class="accordion-inner">
-										<div class="answer">Answer:</div>
-										<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</p>
+										<div class="answer">Ответ:</div>
+										<p>Да, можно. Если светильник легкий (5-7кг) можно применить дюбель-молли(бабочка), если люстра весит больше это учитывается при монтаже потолка и в место крепления люстры устанавливается дополнительный профиль</p>
 									</div>
 								</div>
 							</div>
+						</div>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'montagnik';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+							
 						</div>

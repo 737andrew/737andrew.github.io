@@ -8,7 +8,7 @@ time_publish: "06-03-2009"
 ---
 {% include JB/setup %}
 
-![дизайн потолков](images/desing-potolok.jpg)
+![дизайн потолков](images/desing-potolok.jpg){: style="float:right; margin:10px"}
 
 Способы дизайна потолков из гипсокартона
 
